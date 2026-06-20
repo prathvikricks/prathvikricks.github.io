@@ -191,6 +191,12 @@ h1, h2, h3, h4 { font-family: var(--font-display); font-weight: 600; line-height
 .hero__title .line { display: block; overflow: hidden; }
 .hero__title .word { display: inline-block; transform: translateY(110%); }
 
+.hero__handle {
+  font-family: var(--font-mono); font-size: clamp(0.95rem, 1.7vw, 1.25rem);
+  color: var(--muted); letter-spacing: 0.04em; margin: 0.5rem 0 0.2rem;
+}
+.hero__handle .brace { color: var(--accent); font-weight: 500; }
+
 .hero__subtitle {
   font-family: var(--font-display); font-weight: 500;
   font-size: clamp(1.1rem, 2.4vw, 1.6rem); color: var(--text);
